@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow1</class>
+ <widget class="QMainWindow" name="MainWindow1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background : rgb(170, 170, 170)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="FournisseurButton">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>130</y>
+      <width>161</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+ background : #FF8C00 ; 
+ border-radius : 25px ; 
+font-size : 20px ;
+color : #48494B ;  
+}
+QPushButton:hover
+{
+ background : #48494B; 
+ border-radius : 25px ; 
+color : white ;  
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Fournisseur</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Employebutton">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>130</y>
+      <width>161</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+ background : #FF8C00 ; 
+ border-radius : 25px ; 
+font-size : 20px ;
+color : #48494B ;  
+}
+QPushButton:hover
+{
+ background : #48494B; 
+ border-radius : 25px ; 
+color : white ;  
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Logement</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Indifentbutton">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>370</y>
+      <width>161</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+ background : #FF8C00 ; 
+ border-radius : 25px ; 
+font-size : 20px ;
+color : #48494B ;  
+}
+QPushButton:hover
+{
+ background : #48494B; 
+ border-radius : 25px ; 
+color : white ;  
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Indigent</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Medicalfilebutton">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>370</y>
+      <width>161</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+ background : #FF8C00 ; 
+ border-radius : 25px ; 
+font-size : 20px ;
+color : #48494B ;  
+}
+QPushButton:hover
+{
+ background : #48494B; 
+ border-radius : 25px ; 
+color : white ;  
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Dossier Medical</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
